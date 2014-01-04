@@ -6,3 +6,4 @@ myconfig
 2014-01-04
 
 * 添加git global配置文件
+* 添加全局gitignore文件
