@@ -25,3 +25,4 @@
 	prompt = No
 [mergetool]
 	trustExitCode = false
+	prompt = No
