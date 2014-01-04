@@ -10,8 +10,9 @@
 	ci = commit
 	brv = branch -vv
 	sh = stash
-	flog = log --oneline --graph --all --decorate
 	olog = log --oneline
+	flog = log --pretty=format:\"%C(yellow)%h%Creset %C(cyan)%an%Creset %C(blue)(%cr)%Creset %s %C(green)%d\" --graph --all
+	clog = log --pretty=format:\"%C(yellow)%h%Creset %C(cyan)%an%Creset %C(blue)(%cr)%Creset %s %C(green)%d\"
 [push]
 	default = simple
 [core]
