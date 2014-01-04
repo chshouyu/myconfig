@@ -1,0 +1,27 @@
+[user]
+	name = chshouyu
+	email = chshouyu@126.com
+[color]
+	ui = true
+[alias]
+	st = status
+	br = branch
+	co = checkout
+	ci = commit
+	brv = branch -vv
+	sh = stash
+	flog = log --oneline --graph --all --decorate
+	olog = log --oneline
+[push]
+	default = simple
+[core]
+	editor = vim
+	autocrlf = input
+[merge]
+	tool = vimdiff
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = No
+[mergetool]
+	trustExitCode = false
